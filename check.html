@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     .box-container {
+  display: flex;
+  justify-content: space-between; /* Equal horizontal gaps */
+  align-items: flex-start; /* Align items to the top by default */
+  height: 500px;
+  border: 5px solid black;
+}
+
+.box {
+    background: maroon;
+  width: 50px;
+  height: 50px;
+}
+
+.box1 {
+  margin-top: 0; /* Align to the top */
+}
+
+.box2 {
+  margin-top: auto; /* Push to the center vertically */
+  margin-bottom: auto; /* Push to the center vertically */
+}
+
+.box3 {
+  margin-bottom: 0; /* Align to the bottom */
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="box-container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+      </div>
+      
+  </body>
+</html>
