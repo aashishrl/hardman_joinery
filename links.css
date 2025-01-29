@@ -153,96 +153,38 @@
     padding: 3px 86px;
     text-align: left;
   }
-  .contact-content {
-    padding: 16px 35px 0 88px;
+  .links-content {
+    padding: 32px 35px 41px  88px;
     font-size: 13px;
   }
-
-  .form-container{
-    display: flex;
-    justify-content: center;
-    margin-left: -122px;;
+  .links-list{
+    padding-left: 39px;
   }
-  .form-container p{
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: -1px;
-  }
-  .form-container p span{
-    color:  rgb(240, 0, 0);
-    font-size: 9px;
-    font-weight: 600;
-    position: relative;
-    top: -2px;
-  }
-  .form-row {
+  .link-content-link{
     display: flex;
     align-items: center;
-    margin-bottom: 4px;
+    gap: 40.5px;
   }
-  .form-row-bottom{
-    align-items: start;
+  .link-content-link p{
+    text-decoration: underline;
   }
-  label {
-    width: 87px;
-    margin-right: 9px;
-    font-family: Arial, Helvetica, sans-serif;
+  .link-content-link3{
+    margin-left: -39px;
+    margin-bottom: 1px;
   }
-  label span{
-    color:  rgb(240, 0, 0);
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+  .link-content-link3 img{
+    margin-right: -38px;
   }
-  input {
-    width: 177px;
-    height: 21px;
-    padding: 1px 2px;
-  }
-  textarea {
-    width: 163px;
-    height: 66px;
-  }
-  #postcode {
-    width: 65px;
-  }
-  button{
-    padding: 1px 6px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 4px;
-    margin-top: 5px;
-  }
-  .form-container .bottom-text{
-    color:  rgb(240, 0, 0);
-    margin-bottom: 16px;
-    font-size: 13.4px;
-    line-height: 16px;
-    word-spacing: 1px;
-  } 
+
 
   footer {
     padding-left: 88px;
   }
   footer h1 {
-    margin: 0 0 12px -88px;
+    margin: 0 0 42px -88px;
     text-align: center;
   }
-  footer p {
-    font-size: 9.4px;
-    text-align: end;
-    padding: 0 21px 12px 0;
-    word-spacing: 0.4px;
-    letter-spacing: 0.2px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-  }
-  footer p span {
-    font-family: Helvetica;
-  }
-  footer p span a {
-    color:black;
-    font-family: Helvetica;
-  }
-  
+
   @media (min-width: 1400px) {
     body {
       display: flex;

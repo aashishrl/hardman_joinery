@@ -42,6 +42,16 @@ nav ul li {
   word-spacing: -0.90px;
   letter-spacing: 0.35px;
 }
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+nav ul li:hover a{
+  color: white;
+}
+nav ul li:hover{
+  background: black;
+}
 nav ul li:nth-child(2) {
   padding-bottom: 2px;
 }

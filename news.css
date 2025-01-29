@@ -24,7 +24,7 @@
   
   aside {
     background: black;
-    width: 150px;
+    width: 151px;
     padding: 8px 11px 8px 9px;
     height: 100vh;
   }
@@ -153,71 +153,43 @@
     padding: 3px 86px;
     text-align: left;
   }
-  .contact-content {
-    padding: 16px 35px 0 88px;
+  .news-content {
+    padding: 27px 35px 201px 83px;
     font-size: 13px;
+    display: flex;
+    gap: 5px;
+  }
+  @media (max-width:1048px){
+    .news-content {
+    padding: 27px 35px 0 11px;
+    }
   }
 
-  .form-container{
-    display: flex;
-    justify-content: center;
-    margin-left: -122px;;
-  }
-  .form-container p{
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: -1px;
-  }
-  .form-container p span{
-    color:  rgb(240, 0, 0);
-    font-size: 9px;
-    font-weight: 600;
-    position: relative;
-    top: -2px;
-  }
-  .form-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 4px;
-  }
-  .form-row-bottom{
-    align-items: start;
-  }
-  label {
-    width: 87px;
-    margin-right: 9px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  label span{
-    color:  rgb(240, 0, 0);
+  .news-content .news-date{
+    font-weight: bold;
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-top: -6px;
+    
   }
-  input {
-    width: 177px;
-    height: 21px;
-    padding: 1px 2px;
+  .news-content .news-description{
+    margin-bottom: 19px;
   }
-  textarea {
-    width: 163px;
-    height: 66px;
-  }
-  #postcode {
-    width: 65px;
-  }
-  button{
-    padding: 1px 6px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 4px;
-    margin-top: 5px;
-  }
-  .form-container .bottom-text{
-    color:  rgb(240, 0, 0);
+  .news-content .news-image{
     margin-bottom: 16px;
-    font-size: 13.4px;
-    line-height: 16px;
-    word-spacing: 1px;
-  } 
+  }
+
+  .news-image-gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 11px; 
+  }
+  .news-image-gallery div{
+    display: flex;
+    gap: 8px;
+  }
+
+
+
 
   footer {
     padding-left: 88px;
