@@ -23,7 +23,7 @@ main {
 main img:first-child {
   margin-top: 15px;
 }
-.font-timesNewRoman {
+.font-times {
   font-family: "Times New Roman", Arial, Helvetica, Verdana, sans-serif !important;
   font-weight: bold;
   font-size: 18px;
@@ -49,7 +49,7 @@ main p {
 main p span a {
   color: white;
 }
-
+/* 
 aside {
   width: 150px;
   padding: 8px 10px 8px 9px;
@@ -123,6 +123,125 @@ ul li:nth-child(8) {
 }
 .instaLink {
   margin: 29px 0;
+}
+
+@media (min-width: 1400px) {
+  body {
+    display: flex;
+    align-items: flex-start;
+  }
+  aside {
+    margin-top: 0;
+  }
+  main {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .company-info {
+    margin-top: 270px;
+  }
+} */
+
+
+
+
+
+aside {
+  background: black;
+  width: 152px;
+  padding: 8px 10px 8px 9px;
+  height: 100vh;
+}
+nav ul {
+  background: white;
+  width: 130px;
+}
+nav ul li {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px 0 2.28px 4px;
+  border-bottom: 1px solid black;
+  word-spacing: 0.1px;
+  letter-spacing: 0.17px;
+}
+ul li:nth-child(2) {
+  padding-bottom: 2px;
+}
+ul li:nth-child(3) {
+  padding-bottom: 4px;
+}
+ul li:nth-child(8) {
+  border-bottom: none;
+  padding-bottom: 2px;
+}
+.company-info {
+  color: white;
+  text-align: center;
+  margin-right: 7px;
+}
+
+.company-info p:first-child {
+  display: flex;
+  flex-direction: column;
+  margin-top: -3px;
+  margin-bottom: 23px;
+}
+.address,
+.address2 {
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 7px;
+  margin-bottom: 6.38px;
+}
+.title2 {
+  font-size: 13px;
+  font-weight: bold;
+  margin: -19px 0 -17px 0;
+}
+.title3 {
+  padding-bottom: 7px;
+  margin-top: -1px;
+  position: relative;
+}
+.address span,
+.address2 span {
+  position: relative;
+}
+.title3::after,
+.address span::after,
+.address2 span::after {
+  width: 49px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  content: "";
+  right: 15px;
+  top: 21px;
+}
+.title3::after {
+  right: 36px;
+  top: 23px;
+}
+.phone {
+  margin-bottom: 14px;
+  margin-top: 6px;
+  word-spacing: -0.8px;
+}
+.email {
+  margin-bottom: -1px;
+}
+.email a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.hours {
+  line-height: 13px;
+  word-spacing: 0px;
+}
+.instaLink {
+  margin: 31px 0;
 }
 
 @media (min-width: 1400px) {
