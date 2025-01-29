@@ -41,13 +41,13 @@
     word-spacing: -0.90px;
     letter-spacing: 0.35px;
   }
-  ul li:nth-child(2) {
+  nav ul li:nth-child(2) {
     padding-bottom: 2px;
   }
-  ul li:nth-child(3) {
+  nav ul li:nth-child(3) {
     padding-bottom: 4px;
   }
-  ul li:nth-child(8) {
+  nav ul li:nth-child(8) {
     border-bottom: none;
     padding-bottom: 2px;
   }
